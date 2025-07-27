@@ -191,3 +191,4 @@ Bob Jones,male,bob@example.com,321-987-6543,UK
 
 💡 `requests.get(image_url).content` yordamida rasm faylini yozing.
 
+
