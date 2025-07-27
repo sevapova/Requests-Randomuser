@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Kassandra Mirovich",
+    "birth_year": 1998,
+    "email": "kassandra.mirovich@example.com"
+  },
+  {
+    "name": "Espen Gjernes",
+    "birth_year": 1996,
+    "email": "espen.gjernes@example.com"
+  },
+  {
+    "name": "Melike \u00d6zk\u00f6k",
+    "birth_year": 1995,
+    "email": "melike.ozkok@example.com"
+  },
+  {
+    "name": "Mahmut Wisniewski",
+    "birth_year": 1996,
+    "email": "mahmut.wisniewski@example.com"
+  },
+  {
+    "name": "Kasper Karjala",
+    "birth_year": 1998,
+    "email": "kasper.karjala@example.com"
+  }
+]

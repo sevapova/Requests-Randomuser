@@ -1,0 +1,12 @@
+{
+  "first_name": "Alma",
+  "last_name": "Olsen",
+  "gender": "female",
+  "email": "alma.olsen@example.com",
+  "phone": "83014988",
+  "address": {
+    "street": "N\u00f8rreskovvej",
+    "city": "Sundby",
+    "country": "Denmark"
+  }
+}
