@@ -1,12 +1,12 @@
 {
-  "first_name": "Alma",
-  "last_name": "Olsen",
-  "gender": "female",
-  "email": "alma.olsen@example.com",
-  "phone": "83014988",
-  "address": {
-    "street": "N\u00f8rreskovvej",
-    "city": "Sundby",
-    "country": "Denmark"
-  }
+    "first_name": "J\u00e9r\u00e9mie",
+    "last_name": "Deschamps",
+    "gender": "male",
+    "email": "jeremie.deschamps@example.com",
+    "phone": "079 987 64 45",
+    "address": {
+        "street": "Avenue Vauban",
+        "city": "Yvonand",
+        "country": "Switzerland"
+    }
 }

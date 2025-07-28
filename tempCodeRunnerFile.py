@@ -21,7 +21,7 @@ def get_one_user():
     }
 
     with open("user.json", "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
     print("user.json fayli yaratildi.")
 
 def get_10_users():
@@ -38,7 +38,7 @@ def get_10_users():
         })
 
     with open("users.json", "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
     print("users.json fayli yaratildi.")
 
 def get_females():
@@ -55,7 +55,7 @@ def get_females():
         })
 
     with open("females.json", "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
     print("females.json fayli yaratildi.")
 
 def users_with_images():
@@ -71,7 +71,7 @@ def users_with_images():
         })
 
     with open("users_with_images.json", "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
     print("users_with_images.json fayli yaratildi.")
 
 def young_users():
@@ -89,14 +89,14 @@ def young_users():
             })
 
     with open("young_users.json", "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
     print("young_users.json fayli yaratildi.")
 
 def users_to_csv():
     response = requests.get("https://randomuser.me/api/?results=10")
     users = response.json()['results']
 
-    with open("users.csv", "w") as f:
+    with open("users.csv", "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Full Name", "Gender", "Email", "Phone", "Country"])
 
